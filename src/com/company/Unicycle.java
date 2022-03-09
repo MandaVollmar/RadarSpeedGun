@@ -32,7 +32,7 @@ public class Unicycle extends NonMotorizedVehicles implements Mover {
     }
 
     @Override
-    public int move(int mph) {
+    public int move() {
         System.out.println("The unicycle is now moving at " + getMph() + " mph.");
         return mph;
     }

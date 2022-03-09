@@ -1,6 +1,6 @@
 package com.company;
 
-public class Animal extends RadarSpeedGun {
+public class Animal {
     // properties of animals
     private String name;
     private String type;

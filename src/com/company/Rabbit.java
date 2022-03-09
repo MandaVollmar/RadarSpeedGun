@@ -32,7 +32,7 @@ public class Rabbit extends Animal implements Mover {
     }
 
     @Override
-    public int move(int mph) {
+    public int move() {
         System.out.println(getName() +" is now moving at " + getMph() + " mph.");
         return mph;
 

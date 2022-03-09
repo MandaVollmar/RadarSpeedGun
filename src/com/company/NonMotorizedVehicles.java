@@ -1,6 +1,6 @@
 package com.company;
 
-public class NonMotorizedVehicles extends RadarSpeedGun{
+public class NonMotorizedVehicles{
     // properties of Non Motorized Vehicles
     String type;
     int numOfWheels;
